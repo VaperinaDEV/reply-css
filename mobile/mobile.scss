@@ -1,0 +1,33 @@
+.show-replies {
+    display: block;
+    margin: 10px 0px 15px -10px;
+    font-weight: 600;
+}
+
+.show-replies span {
+    margin-right: 5px;
+}
+
+.embedded-posts .topic-avatar {
+    padding-left: 0;
+    padding-top: 0;
+    width: 45px;
+}
+
+.embedded-posts {
+   margin-top: 20px;
+   padding: 10px;
+   background: linear-gradient(0deg, rgba(var(--secondary-rgb), 0.97) 100%, rgba(var(--primary-rgb), 0.97) 100%),linear-gradient(0deg, #000 0%, #000 100%);
+   border: 1px solid var(--primary-low, $primary-low);
+   border-radius: 4px;
+}
+
+.embedded-posts > div:not(:last-of-type) {
+   border-bottom: 1px solid var(--primary-low, $primary-low);
+   margin: 10px 0px 20px 0px;
+}
+
+.embedded-posts .topic-body .cooked {
+    display: inline-block;
+    margin-top: 10px;
+}
